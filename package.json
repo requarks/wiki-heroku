@@ -1,0 +1,22 @@
+{
+  "name": "wiki-heroku",
+  "version": "1.0.0",
+  "description": "An open source, modern and powerful wiki app built on Node.js, Git and Markdown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Requarks/wiki-heroku.git"
+  },
+  "keywords": [
+    "wiki.js"
+  ],
+  "author": "Nicolas Giard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Requarks/wiki-heroku/issues"
+  },
+  "homepage": "https://github.com/Requarks/wiki-heroku#readme"
+}
