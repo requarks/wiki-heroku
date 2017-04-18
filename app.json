@@ -6,6 +6,7 @@
   "keywords": ["node", "wiki", "heroku"],
   "image": "heroku/nodejs",
   "website": "https://wiki.requarks.io/",
+  "success_url": "/",
   "addons": [
     {
       "plan": "mongolab:sandbox",
@@ -16,5 +17,11 @@
     {
       "url": "heroku/nodejs"
     }
-  ]
+  ],
+  "env": {
+    "HEROKU": {
+      "description": "Tell Wiki.js setup this is an Heroku instance.",
+      "value": true
+    }
+  }
 }
