@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "exit 1",
-    "postinstall": "npm install wiki.js@latest && node wiki configure ${PORT}"
+    "postinstall": "npm install wiki.js@latest"
   },
   "repository": {
     "type": "git",
