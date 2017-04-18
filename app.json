@@ -20,8 +20,8 @@
   ],
   "env": {
     "HEROKU": {
-      "description": "Tell Wiki.js setup this is an Heroku instance.",
-      "value": "true"
+      "description": "Do not change. Required by Wiki.js",
+      "value": "yes"
     }
   }
 }
