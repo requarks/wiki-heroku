@@ -19,7 +19,7 @@
     }
   ],
   "env": {
-    "HEROKU": {
+    "IS_HEROKU": {
       "description": "Do not change. Required by Wiki.js",
       "value": "yes"
     }
