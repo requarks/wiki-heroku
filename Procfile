@@ -1,1 +1,1 @@
-web: node wiki heroku
+web: node wiki start
