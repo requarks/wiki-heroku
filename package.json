@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/Requarks/wiki-heroku#readme",
   "engines": {
-    "node": ">=7 <8"
+    "node": "*"
   }
 }
