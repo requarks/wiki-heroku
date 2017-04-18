@@ -23,8 +23,5 @@
       "description": "Tell Wiki.js setup this is an Heroku instance.",
       "value": true
     }
-  },
-  "scripts": {
-    "postdeploy": "node wiki configure ${PORT}"
   }
 }
