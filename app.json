@@ -21,7 +21,7 @@
   "env": {
     "HEROKU": {
       "description": "Tell Wiki.js setup this is an Heroku instance.",
-      "value": true
+      "value": "true"
     }
   }
 }
