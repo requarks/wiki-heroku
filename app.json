@@ -12,9 +12,6 @@
       "as": "MongoDB"
     }
   ],
-  "scripts": {
-    "postdeploy": "npm install wiki.js@latest"
-  },
   "buildpacks": [
     {
       "url": "heroku/nodejs"

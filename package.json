@@ -4,7 +4,8 @@
   "description": "An open source, modern and powerful wiki app built on Node.js, Git and Markdown.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 1",
+    "postinstall": "npm install wiki.js@latest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Requarks/wiki-heroku/issues"
   },
-  "homepage": "https://github.com/Requarks/wiki-heroku#readme"
+  "homepage": "https://github.com/Requarks/wiki-heroku#readme",
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
 }
