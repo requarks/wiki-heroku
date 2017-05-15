@@ -63,7 +63,7 @@
       "description": "A long and unique random string used to encrypt sessions",
       "value": "1234567890abcdefghijklmnopqrstuvxyz"
     },
-    "IS_HEROKU": {
+    "WIKI_JS_HEROKU": {
       "description": "Do not change. Required by Wiki.js",
       "value": "true"
     }
