@@ -19,9 +19,49 @@
     }
   ],
   "env": {
+    "TITLE": {
+      "description": "Title of your Wiki app",
+      "value": "Wiki"
+    },
+    "HOST": {
+      "description": "Full URL of your Wiki app",
+      "value": "https://YOURAPP.herokuapp.com/"
+    },
+    "LANG": {
+      "description": "UI Language (en, de, es, fr, ko, pt, ru, zh)",
+      "value": "en"
+    },
+    "IS_PUBLIC": {
+      "description": "Is the wiki publicly accessible? (without login)",
+      "value": "false"
+    },
+    "GIT_URL": {
+      "description": "URL of the remote git repository",
+      "value": "https://github.com/Organization/Repo"
+    },
+    "GIT_BRANCH": {
+      "description": "Branch of the remote git repository to use",
+      "value": "master"
+    },
+    "GIT_USERNAME": {
+      "description": "Username to access the remote git repository",
+      "value": "marty"
+    },
+    "GIT_PASSWORD": {
+      "description": "Password / PAT / Deploy Key to access the remote git repository",
+      "value": "MartyMcFly88"
+    },
+    "SERVER_EMAIL": {
+      "description": "Default email to use as commit author",
+      "value": "marty@example.com"
+    },
+    "SHOW_USER_EMAIL": {
+      "description": "Whether to use user email as author in commits",
+      "value": "true"
+    },
     "IS_HEROKU": {
       "description": "Do not change. Required by Wiki.js",
-      "value": "yes"
+      "value": "true"
     }
   }
 }
