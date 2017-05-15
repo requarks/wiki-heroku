@@ -59,6 +59,10 @@
       "description": "Whether to use user email as author in commits",
       "value": "true"
     },
+    "SESSION_KEY": {
+      "description": "A long and unique random string used to encrypt sessions",
+      "value": "1234567890abcdefghijklmnopqrstuvxyz"
+    },
     "IS_HEROKU": {
       "description": "Do not change. Required by Wiki.js",
       "value": "true"
