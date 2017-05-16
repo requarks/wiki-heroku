@@ -59,17 +59,17 @@
       "description": "Whether to use user email as author in commits",
       "value": "true"
     },
-    "WIKI_SESSION_KEY": {
-      "description": "A long and unique random string used to encrypt sessions",
-      "generator": "secret"
-    },
     "WIKI_ADMIN_EMAIL": {
       "description": "Email to use during root administrator account creation (default password: admin123)",
       "value": "marty@example.com"
     },
+    "WIKI_SESSION_KEY": {
+      "description": "A long and unique random string used to encrypt sessions",
+      "generator": "secret"
+    },
     "WIKI_JS_HEROKU": {
-      "description": "Do not change. Required by Wiki.js",
-      "value": "true"
+      "description": "Reserved for Wiki.js use",
+      "generator": "secret"
     }
   }
 }
