@@ -5,7 +5,7 @@
   "logo": "https://raw.githubusercontent.com/Requarks/wiki/master/assets/images/logo.png",
   "keywords": ["node", "wiki", "heroku"],
   "image": "heroku/nodejs",
-  "website": "https://wiki.requarks.io/",
+  "website": "https://wiki.js.org/",
   "success_url": "/",
   "addons": [
     {
@@ -61,7 +61,11 @@
     },
     "WIKI_SESSION_KEY": {
       "description": "A long and unique random string used to encrypt sessions",
-      "value": "1234567890abcdefghijklmnopqrstuvxyz"
+      "generator": "secret"
+    },
+    "WIKI_ADMIN_EMAIL": {
+      "description": "Email to use during root administrator account creation (default password: admin123)",
+      "value": "marty@example.com"
     },
     "WIKI_JS_HEROKU": {
       "description": "Do not change. Required by Wiki.js",
