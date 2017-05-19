@@ -28,7 +28,7 @@
       "value": "https://YOURAPP.herokuapp.com/"
     },
     "WIKI_LANG": {
-      "description": "UI Language (en, de, es, fr, ko, pt, ru, zh)",
+      "description": "UI Language (en, es, fr, ko, ru, zh)",
       "value": "en"
     },
     "WIKI_IS_PUBLIC": {
