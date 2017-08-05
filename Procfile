@@ -1,1 +1,1 @@
-web: node wiki/server
+web: cd wiki && node server
