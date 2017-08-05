@@ -18,6 +18,9 @@
       "url": "heroku/nodejs"
     }
   ],
+  "scripts": {
+    "postdeploy": "./install.sh"
+  },
   "env": {
     "WIKI_TITLE": {
       "description": "Title of your Wiki app",
