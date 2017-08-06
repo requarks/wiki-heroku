@@ -50,7 +50,7 @@ lang: $(WIKI_LANG)
 # Site Authentication
 # ---------------------------------------------------------------------
 
-public: $(WIKI_PUBLIC)
+public: $(WIKI_IS_PUBLIC)
 
 auth:
   defaultReadAccess: false
