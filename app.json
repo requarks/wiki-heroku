@@ -40,7 +40,7 @@
       "value": "https://github.com/Organization/Repo"
     },
     "WIKI_GIT_BRANCH": {
-      "description": "Branch of the remote git repository to use",
+      "description": "Branch of the remote git repository to use. This branch must already exist.",
       "value": "master"
     },
     "WIKI_GIT_USERNAME": {
