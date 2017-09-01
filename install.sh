@@ -4,7 +4,7 @@ echo "============================="
 echo "WIKI.JS - HEROKU INSTALLATION"
 echo "============================="
 
-VERSION=$(curl -L -s -S https://wiki.js.org/VERSION)
+VERSION=$(curl -L -s -S https://beta.requarks.io/api/version/stable)
 
 echo "-> Fetching latest build..."
 curl -L -s -S https://github.com/Requarks/wiki/releases/download/v$VERSION/wiki-js.tar.gz | tar xz -C ./wiki
