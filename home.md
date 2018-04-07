@@ -3,9 +3,17 @@
 
 ![Giphy 26](/uploads/giphy-26.gif "Giphy 26")
 # Table of Contents: 
-### <a href="https://cfo-wiki.herokuapp.com/getting-started">New here? Check out our Getting Started Guide</a>
+## Resources for New Brigadiers
 
-#### Go to our Getting Started Guide
+#### <a href="https://cfo-wiki.herokuapp.com/getting-started">New here? Check out our Getting Started Guide</a>
+#### How to use github
+#### What is Code for America
+#### Meetup
+
+## Resources for Brigadiers
+
 #### How to start a project
 #### How to contribute to an exsisting project
 #### Our Development Process
+#### Code for America Resouces
+
