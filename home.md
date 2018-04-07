@@ -1,7 +1,7 @@
-<!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- TITLE: Welcome to the Wiki -->
+<!-- SUBTITLE: A Knowledge base of all things Code for Orlando. -->
 
-# Welcome to the Wiki! A knowledge base of all things Code for Orlando. 
+# Your one stop shop for documentation about organization, projects, getting involved, and process. 
 
 ![Giphy 26](/uploads/giphy-26.gif "Giphy 26")
 
