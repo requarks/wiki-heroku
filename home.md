@@ -3,7 +3,7 @@
 
 ![Giphy 26](/uploads/giphy-26.gif "Giphy 26")
 # Table of Contents: 
-## <a href="https://cfo-wiki.herokuapp.com/getting-started">New here? Check out our Getting Started Guide</a>
+### <a href="https://cfo-wiki.herokuapp.com/getting-started">New here? Check out our Getting Started Guide</a>
 
 #### Go to our Getting Started Guide
 #### How to start a project
