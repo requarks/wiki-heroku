@@ -7,7 +7,7 @@
 
 
 ## Quick Links:
-* <a href="https://cfo-wiki.herokuapp.com/getting-started"> New here? Check out our Getting Started Guide</a>
-* How to start a project
-* How to contribute to an exsisting project
-* Our Development Process
+#### <a href="https://cfo-wiki.herokuapp.com/getting-started"> New here? Check out our Getting Started Guide</a>
+#### How to start a project
+#### How to contribute to an exsisting project
+#### Our Development Process
