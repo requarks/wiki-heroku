@@ -5,7 +5,7 @@
 # Table of Contents: 
 ## Resources for New Brigadiers
 
-#### <a href="https://cfo-wiki.herokuapp.com/getting-started">New here? Check out our Getting Started Guide</a>
+#### <a href="http://wiki.codefororlando.com/getting-started">New here? Check out our Getting Started Guide</a>
 #### How to use github
 #### What is Code for America
 #### Meetup
