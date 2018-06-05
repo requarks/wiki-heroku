@@ -69,7 +69,7 @@ auth:
     clientId: FACEBOOK_APP_ID
     clientSecret: FACEBOOK_APP_SECRET
   github:
-    enabled: false
+    enabled: true
     clientId: GITHUB_CLIENT_ID
     clientSecret: GITHUB_CLIENT_SECRET
   slack:
