@@ -63,6 +63,22 @@
       "description": "Email to use during root administrator account creation (default password: admin123)",
       "value": "marty@example.com"
     },
+    "WIKI_AUTH_LOCAL_ENABLED": {
+      "description": "Boolean flag to enable/disable the Local identity provider",
+      "value": "true"
+    },
+    "WIKI_AUTH_GITHUB_ENABLED": {
+      "description": "Boolean flag to enable/disable the Github identity provider",
+      "value": "false"
+    },
+    "WIKI_AUTH_GITHUB_CLIENT_ID": {
+      "description": "OAuth Application Client ID as configured in Github",
+      "value": ""
+    },
+    "WIKI_AUTH_GITHUB_CLIENT_SECRET": {
+      "description": "OAuth Application Client ID as configured in Github",
+      "value": ""
+    },
     "WIKI_SESSION_KEY": {
       "description": "A long and unique random string used to encrypt sessions",
       "generator": "secret"
