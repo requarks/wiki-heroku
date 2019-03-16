@@ -151,3 +151,16 @@ externalLogging:
   papertrail: false
   rollbar: false
   sentry: false
+
+# ---------------------------------------------------------------------
+# Color Theme
+# ---------------------------------------------------------------------
+
+theme:
+  primary: indigo
+  alt: blue-grey
+  viewSource: all # all | write | false
+  footer: blue-grey
+  code:
+    dark: true
+    colorize: true
