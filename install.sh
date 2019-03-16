@@ -14,8 +14,9 @@ curl -L -s -S https://github.com/Requarks/wiki-v1/releases/download/v$VERSION/wi
 echo "[2/3] Fetching dependencies..."
 curl -L -s -S https://github.com/Requarks/wiki-v1/releases/download/v$VERSION/node_modules.tar.gz | tar xz -C wiki
 
-echo "[3/3] Creating config file..."
-cp -n wiki/config.sample.yml wiki/config.yml
+echo "[3/3] Use pre-mapped configuration file..."
+# echo "[3/3] Creating config file..."
+# cp -n wiki/config.sample.yml wiki/config.yml
 
 echo -e "-> ${green}Installation Complete${normal}\n"
 
