@@ -8,10 +8,7 @@
   "success_url": "/",
   "addons": [
     {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "11.2"
-      }
+      "plan": "heroku-postgresql"
     }
   ],
   "stack": "container"
