@@ -1,75 +1,18 @@
 {
   "name": "Wiki.js",
   "description": "An open source, modern and powerful wiki app built on Node.js, Git and Markdown.",
-  "repository": "https://github.com/requarks/wiki-heroku",
-  "logo": "https://raw.githubusercontent.com/Requarks/wiki-v1/master/assets/images/logo.png",
+  "repository": "https://github.com/requarks/wiki-heroku/tree/beta",
+  "logo": "https://github.com/Requarks/wiki/blob/master/client/static/favicons/android-icon-192x192.png?raw=true",
   "keywords": ["node", "wiki", "heroku"],
-  "image": "heroku/nodejs",
   "website": "https://wiki.js.org/",
   "success_url": "/",
   "addons": [
     {
-      "plan": "mongolab:sandbox",
-      "as": "MongoDB"
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "11.2"
+      }
     }
   ],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ],
-  "env": {
-    "WIKI_TITLE": {
-      "description": "Title of your Wiki app",
-      "value": "Wiki"
-    },
-    "WIKI_HOST": {
-      "description": "Full URL of your Wiki app",
-      "value": "https://YOURAPP.herokuapp.com"
-    },
-    "WIKI_LANG": {
-      "description": "UI Language (en, es, fr, ko, ru, zh)",
-      "value": "en"
-    },
-    "WIKI_IS_PUBLIC": {
-      "description": "Is the wiki publicly accessible? (without login)",
-      "value": "false"
-    },
-    "WIKI_GIT_URL": {
-      "description": "URL of the remote git repository",
-      "value": "https://github.com/Organization/Repo"
-    },
-    "WIKI_GIT_BRANCH": {
-      "description": "Branch of the remote git repository to use. This branch must already exist.",
-      "value": "master"
-    },
-    "WIKI_GIT_USERNAME": {
-      "description": "Username to access the remote git repository",
-      "value": "marty"
-    },
-    "WIKI_GIT_PASSWORD": {
-      "description": "Password / PAT / Deploy Key to access the remote git repository",
-      "value": "MartyMcFly88"
-    },
-    "WIKI_SERVER_EMAIL": {
-      "description": "Default email to use as commit author",
-      "value": "marty@example.com"
-    },
-    "WIKI_SHOW_USER_EMAIL": {
-      "description": "Whether to use user email as author in commits",
-      "value": "true"
-    },
-    "WIKI_ADMIN_EMAIL": {
-      "description": "Email to use during root administrator account creation (default password: admin123)",
-      "value": "marty@example.com"
-    },
-    "WIKI_SESSION_KEY": {
-      "description": "A long and unique random string used to encrypt sessions",
-      "generator": "secret"
-    },
-    "WIKI_JS_HEROKU": {
-      "description": "Reserved for Wiki.js use",
-      "generator": "secret"
-    }
-  }
+  "stack": "container"
 }
