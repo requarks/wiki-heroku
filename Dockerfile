@@ -1,4 +1,4 @@
-FROM requarks/wiki:dev
+FROM requarks/wiki:beta
 WORKDIR /wiki
 ENV DB_TYPE postgres
 ENV HEROKU 1
