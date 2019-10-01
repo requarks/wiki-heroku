@@ -14,7 +14,7 @@ title: $(WIKI_TITLE)
 # Full public path to the site, without the trailing slash
 # ---------------------------------------------------------------------
 
-host: $(WIKI_HOST)
+host: https://clearlyelevated-wiki-js-master.herokuapp.com/
 
 # ---------------------------------------------------------------------
 # Port the main server should listen to (80 by default)
@@ -103,7 +103,7 @@ sessionSecret: $(WIKI_SESSION_KEY)
 # Database Connection String
 # ---------------------------------------------------------------------
 
-db: mongodb+srv://nolan:1234@bc-8dldd.mongodb.net/test?retryWrites=true&w=majority
+db: mongodb://nolan:1234@bc-8dldd.mongodb.net/test?retryWrites=true&w=majority
 
 # ---------------------------------------------------------------------
 # Git Connection Info
