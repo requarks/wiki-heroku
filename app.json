@@ -10,7 +10,7 @@
   "addons": [
     {
       "plan": "mongolab:sandbox",
-      "as": "mongodb+srv://nolan:1234@bc-8dldd.mongodb.net/test?retryWrites=true&w=majority"
+      "as": "mongodb://nolan:1234@bc-8dldd.mongodb.net/test?retryWrites=true&w=majority"
     }
   ],
   "buildpacks": [
