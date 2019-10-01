@@ -25,7 +25,7 @@
     },
     "WIKI_HOST": {
       "description": "Full URL of your Wiki app",
-      "value": "https://YOURAPP.herokuapp.com"
+      "value": "https://clearlyelevated-wiki-js-master.herokuapp.com/"
     },
     "WIKI_LANG": {
       "description": "UI Language (en, es, fr, ko, ru, zh)",
