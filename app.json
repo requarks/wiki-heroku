@@ -1,7 +1,7 @@
 {
   "name": "Wiki.js",
   "description": "An open source, modern and powerful wiki app built on Node.js, Git and Markdown.",
-  "repository": "https://github.com/requarks/wiki-heroku",
+  "repository": "https://github.com/lutubot/wiki-heroku",
   "logo": "https://raw.githubusercontent.com/Requarks/wiki-v1/master/assets/images/logo.png",
   "keywords": ["node", "wiki", "heroku"],
   "image": "heroku/nodejs",
@@ -10,7 +10,7 @@
   "addons": [
     {
       "plan": "mongolab:sandbox",
-      "as": "MongoDB"
+      "as": "mongodb+srv://nolan:1234@bc-8dldd.mongodb.net/test?retryWrites=true&w=majority"
     }
   ],
   "buildpacks": [
