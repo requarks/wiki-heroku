@@ -103,7 +103,7 @@ sessionSecret: $(WIKI_SESSION_KEY)
 # Database Connection String
 # ---------------------------------------------------------------------
 
-db: $(MONGODB_URI)
+db: mongodb+srv://nolan:1234@bc-8dldd.mongodb.net/test?retryWrites=true&w=majority
 
 # ---------------------------------------------------------------------
 # Git Connection Info
