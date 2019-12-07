@@ -6,7 +6,7 @@ For information about Wiki.js, check out the following links:
 - [Official Website](https://wiki.js.org/)
 - [GitHub Repository](https://github.com/Requarks/wiki)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/requarks/wiki-heroku/tree/beta)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/requarks/wiki-heroku/tree/2.x)
 
 If you want to modify the configuration beyond what's available through environment variables, then:
 * Clone this repo
