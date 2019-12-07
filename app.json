@@ -1,8 +1,8 @@
 {
   "name": "Wiki.js",
   "description": "An open source, modern and powerful wiki app built on Node.js, Git and Markdown.",
-  "repository": "https://github.com/requarks/wiki-heroku/tree/beta",
-  "logo": "https://github.com/Requarks/wiki/blob/master/client/static/favicons/android-icon-192x192.png?raw=true",
+  "repository": "https://github.com/requarks/wiki-heroku/tree/2.x",
+  "logo": "https://static.requarks.io/logo/wikijs-butterfly.svg",
   "keywords": ["node", "wiki", "heroku"],
   "website": "https://wiki.js.org/",
   "success_url": "/",
